@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/count.css">
+</head>
+<body>
+
+  <h1><%= @number %></h1>
+  <form action="/plus" method="post">
+    <input type="submit" value="+">
+  </form>
+  <form action="/minus" method="post">
+    <input type="submit" value="-">
+  </form>
+  <form action="/times" method="post">
+    <input type="submit" value="×2">
+  </form>
+  <p>※10000を超えたら0に戻る!!</p>
+</body>
+</html>
