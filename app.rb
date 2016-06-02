@@ -15,7 +15,7 @@ before do
 end
 
 get '/' do
-  'こんばんは'
+  redirect 'count'
 end
 
 get '/count' do
